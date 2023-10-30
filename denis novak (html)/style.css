@@ -1,0 +1,174 @@
+.container {
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  width: 1440px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+header ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+header ul  li a{
+  color: #828282;
+}
+header ul li a:hover {
+  color: black;
+
+ }       
+.Denis_novik {
+  display: flex;
+  justify-content: center;
+}
+.about {
+  padding: 100px;
+  background-color: #f6f6f6;
+}
+
+.about h2 {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.about p {
+  color: #070707;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+.about p:nth-child(1) {
+  max-width: 480px;
+}
+.about p:nth-child(2) {
+  max-width: 406px;
+}
+.about p:nth-child(3) {
+  max-width: 321px;
+}
+.about p:last-child {
+  margin-bottom: 0;
+}
+.skills {
+ padding: 100px;
+ background-color: #ffff;
+ margin-bottom: 30px;
+}
+.skills h2 {
+ color:  #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 34px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ margin-top: 100px;
+ margin-bottom: 20px;
+}
+.skills p {
+ color: #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ margin-bottom: 50px;
+}
+.skills ul {
+ display: flex;
+ list-style: none;
+ gap: 97px;
+ margin-bottom: 100px;
+  }
+.portfolio {
+ padding: 100px; 
+ background-color: #f6f6f6;
+}
+.portfolio h2 {
+ color: #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 34px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ margin-bottom: 50px;
+}  
+.portfolio h3 {
+ color: #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ text-decoration-line: underline;  
+}
+.footer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ flex-direction: column;
+}
+.footer h2 {
+ color: #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 34px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ margin-bottom: 20px;
+} 
+.footer p {
+ color: #070707;
+ text-align: center;
+ font-family: Open Sans;
+ font-size: 18px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ width: 100%;
+ margin-bottom: 60px;
+}
+.btn-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.btn {
+ width: 180px;
+ height: 44px;
+ padding: 0px 16px;
+ border-radius: 22px;
+ background: #070707;
+ color: #f6f6f6;
+ margin-top: 60px;
+ margin-bottom: 30px;
+}
+.footer ul {
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+}
+  
+ 
