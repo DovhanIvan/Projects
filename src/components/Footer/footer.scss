@@ -1,0 +1,101 @@
+.footer {
+    background: url(./img/footer_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        gap: 20px; 
+        max-width: 1200px; 
+        width: 100%; 
+        padding: 0 20px; 
+    }
+
+    nav {
+        ul {
+            display: flex;
+            gap: 25px;
+            padding: 0;
+            margin: 0;
+            list-style-type: none; 
+            
+        }
+
+        a {
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #f0f0f0;
+            transition: .5s all ease-out;
+            text-align: center;
+            width: 100%;
+            &:hover {
+                color: #e4d804;
+            }
+
+            &.active {
+                color: #e4d804;
+            }
+        }
+    }
+
+    .form-footer {
+        display: flex;
+        align-items: center; 
+        border: 2px solid #e4d804;
+        background-color: #171D22;
+        border-radius: 50px;
+        color: #f0f0f0;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        padding: 10px 20px; 
+    }
+
+    .form-footer input {
+        flex: 1; 
+        border: none;
+        background-color: transparent;
+        color: #f0f0f0;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase;
+        outline: none;
+    }
+
+    .form-footer button {
+        background-color: transparent;
+        border: none;
+        color: #f0f0f0;
+        font-size: 18px;
+        cursor: pointer;
+        transition: color 0.5s ease;
+
+        &:hover {
+            color: #e4d804;
+        }
+    }
+}
+@media (max-width: 680px) {
+    nav {
+        ul {
+            flex-direction: column;
+        }
+
+        a {
+            width: auto; 
+        }
+    }
+    .form-footer {
+        display: flex;
+        width: 100%;
+    }
+}
