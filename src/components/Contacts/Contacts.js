@@ -65,7 +65,7 @@ function onSubmit(values) {
     required: "Requrired",
     pattern: {
       value: /(w|\s|[.'-])+/,
-      message: "Incorrect message"
+      message: "Incorrect  message"
     }
   })}
   />
