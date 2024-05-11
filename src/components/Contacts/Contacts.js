@@ -19,7 +19,7 @@ function onSubmit(values) {
         {...register( "name", {
           required: "Required",
           pattern: {
-            value: /(\w|\s|[\.\'-])+/,
+            value: /(\w|\s|[.'-])+/,
             message: "Incorrect name"
           }
         })}
@@ -49,7 +49,7 @@ function onSubmit(values) {
   {...register("subject", {
     required: "Requrired",
     pattern: {
-      value: /(w|\s|[\.\'-])+/,
+      value: /(w|\s|[.'-])+/,
       message: "invalid email address"
     }
   })}
@@ -64,7 +64,7 @@ function onSubmit(values) {
   {...register("message", {
     required: "Requrired",
     pattern: {
-      value: /(w|\s|[\.\'-])+/,
+      value: /(w|\s|[.'-])+/,
       message: "Incorrect message"
     }
   })}

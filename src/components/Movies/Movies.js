@@ -27,6 +27,7 @@ function Movies () {
         return items;
     });
     const [total_pages, setTotalPages] = useState(1);
+    // eslint-disable-next-line no-unused-vars
     const [page, setPage] = useState(1);
 function searchMovie (e) {
         e.preventDefault();
@@ -66,7 +67,7 @@ function wishlist (event) {
         let newItem = [...Liked, id]
         setLiked(newItem);
         for (let i = 0; i < movies.length; i++) {
-            if (movies[i].id == id) {
+            if (movies[i].id === id) {
                 window.localStorage.setItem('movie-'+id, JSON.stringify(movies[i]));
             }
         }
