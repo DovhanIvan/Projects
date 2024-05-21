@@ -70,8 +70,8 @@ function onSubmit(values) {
   })}
   />
  <p className={'error-message'}>{errors.message  && errors.message.message}</p>
+ <button type="submit">submit</button>
       </div>
-      <button type="submit">submit</button>
     </form>
     
   )
